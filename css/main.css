@@ -1,0 +1,112 @@
+/******************************
+GENERAL BODY STYLING
+******************************/
+
+body {
+  display: 100;
+  background-color: grey;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+#flexContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+#mainHeader {
+  text-align: center;  
+  padding: 8px 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  padding: 16px;
+} 
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  max-width: 30%;
+  padding: 0;
+  border: solid 1px lightblue;
+  margin: 15px;
+}
+
+.flexCard h4 {
+  margin: 5px 12px;
+}
+
+.availabilityElement .flexCard {
+  margin: 0;
+}
+
+.cardTitle {
+  text-align: center;
+  border: dotted 1px lightgrey;
+}
+
+.productImage {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: auto;
+}
+
+.imageDescription {
+  text-align: justify;
+  margin: 16px 12px;
+}
+
+.productDetailsPricing {
+  font-weight: bold;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.productDetailsPricing p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.availabilityElement {
+  color: yellow;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+
+/******************************
+FOOTER
+******************************/
+
+#mainFooter {
+  font-size: .85em;
+  color: #fff;
+  padding-top: 20px; 
+}
+
+#mainFooter p {
+  text-align: center;
+}
